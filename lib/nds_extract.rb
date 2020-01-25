@@ -29,7 +29,7 @@ result = { }
 
 
 
-while outer_index < nds[outer_index].length do
+while outer_index < nds.length do
 
 total_gross1 = 0
 result[nds[outer_index][:name]] = gross_for_director(nds[outer_index])
