@@ -36,6 +36,7 @@ result[nds[outer_index][:name]] = gross_for_director(nds[outer_index])
 
 outer_index +=1
 end
-result
 puts result
+result
+
 end
