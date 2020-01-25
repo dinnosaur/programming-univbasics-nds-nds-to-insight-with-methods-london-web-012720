@@ -34,7 +34,7 @@ while outer_index < nds[outer_index][:movies].length do
 total_gross1 = 0
 result[nds[outer_index][:name]] = gross_for_director(nds[outer_index])
 
-
+outer_index +=1
 end
 result
 
