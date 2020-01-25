@@ -7,7 +7,7 @@ require 'pp'
 def gross_for_director(director_data)
 gross_index =0
 total_gross = 0
-puts director_data
+
 
 while gross_index < director_data[:movies].length do
     total_gross += director_data[:movies][gross_index][:worldwide_gross]
@@ -37,5 +37,5 @@ result[nds[outer_index][:name]] = gross_for_director(nds[outer_index])
 outer_index +=1
 end
 result
-puts result 
+puts result
 end
